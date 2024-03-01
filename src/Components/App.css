@@ -1,0 +1,46 @@
+li {
+  list-style-type: none;
+}
+.food-details {
+  width: 100%;
+  justify-content: center;
+}
+img {
+  width: 100%;
+  justify-content: center;
+}
+.display-flex {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1em;
+  margin-top: 5em;
+}
+.list-item {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.display-flex button {
+  border: none;
+  background-color: white;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+@media only screen and (min-width: 1024px) {
+  .display-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .display-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
