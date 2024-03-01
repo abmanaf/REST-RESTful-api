@@ -40,7 +40,7 @@ function App() {
       </div>
       <div className="row gy-4 m-5" data-aos="fade-up" data-aos-delay="100">
         {displayFoods.map((recipe) => (
-          <ul key={recipe.id} className="col-lg-4 col-md-6">
+          <ul key={recipe.id} className="col-lg-3 col-md-6">
             <li className="card" style={{ borderRadius: "50px 0 0 0" }}>
               <img
                 src={recipe.image}
